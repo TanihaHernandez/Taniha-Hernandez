@@ -46,7 +46,7 @@ public class miembroEquipo {
         }//Fin ciclo for
     }//Fin metodo realizarPruebasFisicas
     
-    public void setSumarMinutos(int cantidad){
+    protected void setSumarMinutos(int cantidad){
         if (cantidad>0){
             System.out.println("Sumando minutos al jugador");
             this.minutoJugados +=cantidad;

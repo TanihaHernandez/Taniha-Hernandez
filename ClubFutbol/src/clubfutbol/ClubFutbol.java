@@ -15,18 +15,19 @@ public class ClubFutbol {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+     //miembroEquipo Oscar = new miembroEquipo ("Liga Hondurena");
+     JugadorCampo Daniel = new JugadorCampo ("Liga Espanola", 4);
+     
+        Daniel.setSalarioMensual(-5000);
+        System.out.println("");
         
+        Daniel.setSalarioMensual(15000);
         
+        Daniel.setPosicionTactica("Delantero Estrella Centro!!");
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    }
+        Daniel.disputarPartido();
+
+    }//Fin de main
     
-}
+}//Fin class
+
